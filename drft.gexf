@@ -71,7 +71,7 @@
       <node id="12b26d91-dd9c-47cc-88a3-45915e3c1741" label="Katarina Vyatka">
         <attvalues>
           <attvalue for="name" value="Katarina Vyatka"/>
-          <attvalue for="description" value="Ballerina"/>
+          <attvalue for="description" value="Russian Ballerina"/>
           <attvalue for="@id" value="12b26d91-dd9c-47cc-88a3-45915e3c1741"/>
           <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
           <attvalue for="@labels" value="Person"/>
