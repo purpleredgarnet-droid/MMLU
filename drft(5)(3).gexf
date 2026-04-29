@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="name" title="name" type="string"/>
+      <attribute id="description" title="description" type="string"/>
+      <attribute id="@id" title="@id" type="string"/>
+      <attribute id="@typeId" title="@typeId" type="string"/>
+      <attribute id="@labels" title="@labels" type="string"/>
+      <attribute id="Books Mentioned In" title="Books Mentioned In" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="@id" title="@id" type="string"/>
+      <attribute id="@typeId" title="@typeId" type="string"/>
+      <attribute id="@type" title="@type" type="string"/>
+      <attribute id="rawWeight" title="rawWeight" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="eb555990-3c2e-4a08-9e08-9ea122146a4e" label="Ceridwen Crowhart">
+        <attvalues>
+          <attvalue for="name" value="Ceridwen Crowhart"/>
+          <attvalue for="description" value="Florist Owner"/>
+          <attvalue for="@id" value="eb555990-3c2e-4a08-9e08-9ea122146a4e"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="4.142857142857142"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.142857142857142"/>
+        <viz:position x="84.95127868652344" y="-123.64869689941406"/>
+      </node>
+      <node id="3155a075-6c20-40eb-927f-b06d4e4f2157" label="Candace Smith">
+        <attvalues>
+          <attvalue for="name" value="Candace Smith"/>
+          <attvalue for="description" value="Woman About Town"/>
+          <attvalue for="@id" value="3155a075-6c20-40eb-927f-b06d4e4f2157"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Magdalene Nox; The Headmistress; Fairy Lights; Firewild"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="51.57991409301758" y="43.19410705566406"/>
+      </node>
+      <node id="8f50ad5a-4ab8-469a-8dce-25f6ce69083e" label="Juliette Lucien-Sorel">
+        <attvalues>
+          <attvalue for="name" value="Juliette Lucien-Sorel"/>
+          <attvalue for="description" value="Ballerina"/>
+          <attvalue for="@id" value="8f50ad5a-4ab8-469a-8dce-25f6ce69083e"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Reverence; Fairy Lights; Windburn"/>
+          <attvalue for="rawSize" value="3.428571428571429"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="3.428571428571429"/>
+        <viz:position x="19.99912452697754" y="-23.037355422973633"/>
+      </node>
+      <node id="ca8ea98b-f95c-419c-b389-f0d2cfcfa970" label="Juno Buchanan">
+        <attvalues>
+          <attvalue for="name" value="Juno Buchanan"/>
+          <attvalue for="description" value="Chair of Gannon MacMillan Board"/>
+          <attvalue for="@id" value="ca8ea98b-f95c-419c-b389-f0d2cfcfa970"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="-33.51820755004883" y="-28.434370040893555"/>
+      </node>
+      <node id="12b26d91-dd9c-47cc-88a3-45915e3c1741" label="Katarina Vyatka">
+        <attvalues>
+          <attvalue for="name" value="Katarina Vyatka"/>
+          <attvalue for="description" value="Ballerina"/>
+          <attvalue for="@id" value="12b26d91-dd9c-47cc-88a3-45915e3c1741"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Reverence; Fairy Lights"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="33.348854064941406" y="-24.31943702697754"/>
+      </node>
+      <node id="63a8bfe1-d6b5-425b-a4ba-a53b3a77d27c" label="Vivian DeVor">
+        <attvalues>
+          <attvalue for="name" value="Vivian DeVor"/>
+          <attvalue for="description" value="Artist"/>
+          <attvalue for="@id" value="63a8bfe1-d6b5-425b-a4ba-a53b3a77d27c"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TDTWM; Madam Secretray"/>
+          <attvalue for="rawSize" value="3.428571428571429"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="3.428571428571429"/>
+        <viz:position x="-17.071237564086914" y="106.9375991821289"/>
+      </node>
+      <node id="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" label="Chiara Conti-Lilienfeld">
+        <attvalues>
+          <attvalue for="name" value="Chiara Conti-Lilienfeld"/>
+          <attvalue for="description" value="Couturier"/>
+          <attvalue for="@id" value="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TTL; Fairy Lights"/>
+          <attvalue for="rawSize" value="5.571428571428571"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="5.571428571428571"/>
+        <viz:position x="-155.1833899037344" y="41.018740188480635"/>
+      </node>
+      <node id="232dc9ca-2798-4a00-996f-00ba4d3a78bd" label="Aoife &quot;Sully&quot; Sullivan">
+        <attvalues>
+          <attvalue for="name" value="Aoife &quot;Sully&quot; Sullivan"/>
+          <attvalue for="description" value="Seamstress"/>
+          <attvalue for="@id" value="232dc9ca-2798-4a00-996f-00ba4d3a78bd"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TTL"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="-84.58282470703125" y="26.906221389770508"/>
+      </node>
+      <node id="9d58d9a0-9d4d-478f-a04f-04d87a8f6b53" label="Livia Sabran-McMillan">
+        <attvalues>
+          <attvalue for="name" value="Livia Sabran-McMillan"/>
+          <attvalue for="description" value="Gannon MacMillan Board Member"/>
+          <attvalue for="@id" value="9d58d9a0-9d4d-478f-a04f-04d87a8f6b53"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="-42.722694396972656" y="-23.295608520507812"/>
+      </node>
+      <node id="a095f4f4-fe52-4e02-8a37-d7b26b11519f" label="Victoria Crowhart-Moreaux">
+        <attvalues>
+          <attvalue for="name" value="Victoria Crowhart-Moreaux"/>
+          <attvalue for="description" value="Chef and Restauranteur"/>
+          <attvalue for="@id" value="a095f4f4-fe52-4e02-8a37-d7b26b11519f"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="4.142857142857142"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.142857142857142"/>
+        <viz:position x="63.7435188293457" y="-115.88802337646484"/>
+      </node>
+      <node id="e7c325a7-2f29-46e5-8483-eeb22e5c3917" label="Margaux Belcourt-Crowhart">
+        <attvalues>
+          <attvalue for="name" value="Margaux Belcourt-Crowhart"/>
+          <attvalue for="description" value="Artist"/>
+          <attvalue for="@id" value="e7c325a7-2f29-46e5-8483-eeb22e5c3917"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Reverence"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="22.241069793701172" y="-76.67289733886719"/>
+      </node>
+      <node id="e90fa619-3ae7-4fb0-80ff-9f29f4737468" label="Renate Lilienfeld">
+        <attvalues>
+          <attvalue for="name" value="Renate Lilienfeld"/>
+          <attvalue for="description" value="Designer"/>
+          <attvalue for="@id" value="e90fa619-3ae7-4fb0-80ff-9f29f4737468"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TTL; Fairy Lights"/>
+          <attvalue for="rawSize" value="3.428571428571429"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="3.428571428571429"/>
+        <viz:position x="-16.675182342529297" y="55.40987777709961"/>
+      </node>
+      <node id="8db42da6-8694-4e6f-9c77-777f2239997e" label="Dr. Helena Moore">
+        <attvalues>
+          <attvalue for="name" value="Dr. Helena Moore"/>
+          <attvalue for="description" value="Psychiatrist"/>
+          <attvalue for="@id" value="8db42da6-8694-4e6f-9c77-777f2239997e"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS; Reverence; Magdalene Nox; Fairy Lights"/>
+          <attvalue for="rawSize" value="4.857142857142858"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.857142857142858"/>
+        <viz:position x="6.485050678253174" y="22.59712028503418"/>
+      </node>
+      <node id="b1b3be36-dc0b-45e2-beff-e68353cac4bd" label="Noor Alami">
+        <attvalues>
+          <attvalue for="name" value="Noor Alami"/>
+          <attvalue for="description" value="Campaign Manager"/>
+          <attvalue for="@id" value="b1b3be36-dc0b-45e2-beff-e68353cac4bd"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Madam Secretary"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="67.97657012939453" y="-16.165037155151367"/>
+      </node>
+      <node id="446abc00-b917-4514-9ca4-bd53e0d71782" label="Paloma Allende">
+        <attvalues>
+          <attvalue for="name" value="Paloma Allende"/>
+          <attvalue for="description" value="Businesswoman and Mayor"/>
+          <attvalue for="@id" value="446abc00-b917-4514-9ca4-bd53e0d71782"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="37.584327697753906" y="-64.33446502685547"/>
+      </node>
+      <node id="15433b89-0df9-4e35-aca7-bf2b18ea2d90" label="Jameson &quot;Jamie&quot; Walker">
+        <attvalues>
+          <attvalue for="name" value="Jameson &quot;Jamie&quot; Walker"/>
+          <attvalue for="description" value="Journalist"/>
+          <attvalue for="@id" value="15433b89-0df9-4e35-aca7-bf2b18ea2d90"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TDTWM"/>
+          <attvalue for="rawSize" value="4.142857142857142"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.142857142857142"/>
+        <viz:position x="-5.03435754776001" y="88.60721588134766"/>
+      </node>
+      <node id="493463d3-c8e7-4256-a1ab-b6f78566c62a" label="Reem Alami">
+        <attvalues>
+          <attvalue for="name" value="Reem Alami"/>
+          <attvalue for="description" value="Chef"/>
+          <attvalue for="@id" value="493463d3-c8e7-4256-a1ab-b6f78566c62a"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Firewild"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="72.52987670898438" y="-36.47285842895508"/>
+      </node>
+      <node id="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970" label="Audrey Avens">
+        <attvalues>
+          <attvalue for="name" value="Audrey Avens"/>
+          <attvalue for="description" value="Journalist"/>
+          <attvalue for="@id" value="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS; Fairy Lights"/>
+          <attvalue for="rawSize" value="4.857142857142858"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.857142857142858"/>
+        <viz:position x="-22.25230598449707" y="27.63686180114746"/>
+      </node>
+      <node id="1ef1bb0b-4d0a-42a7-a936-5158519da083" label="Prudence Fowler">
+        <attvalues>
+          <attvalue for="name" value="Prudence Fowler"/>
+          <attvalue for="description" value="Bookstore Owner"/>
+          <attvalue for="@id" value="1ef1bb0b-4d0a-42a7-a936-5158519da083"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="20.223209381103516" y="-134.83518981933594"/>
+      </node>
+      <node id="adaf0a62-117a-434b-ae63-f92659ea899d" label="Elinor Moncrief">
+        <attvalues>
+          <attvalue for="name" value="Elinor Moncrief"/>
+          <attvalue for="description" value="Newspaper Editor"/>
+          <attvalue for="@id" value="adaf0a62-117a-434b-ae63-f92659ea899d"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS; Firewild"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="-30.638132556283935" y="-107.46459844572568"/>
+      </node>
+      <node id="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" label="Rhiannon Crowhart">
+        <attvalues>
+          <attvalue for="name" value="Rhiannon Crowhart"/>
+          <attvalue for="description" value="Book Conservationist"/>
+          <attvalue for="@id" value="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="5.571428571428571"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="5.571428571428571"/>
+        <viz:position x="36.46186065673828" y="-117.06971740722656"/>
+      </node>
+      <node id="0324d001-9b09-4923-8320-5a0173866eb3" label="Franziska &quot;Frankie&quot; Lilienfeld">
+        <attvalues>
+          <attvalue for="name" value="Franziska &quot;Frankie&quot; Lilienfeld"/>
+          <attvalue for="description" value="Couturier"/>
+          <attvalue for="@id" value="0324d001-9b09-4923-8320-5a0173866eb3"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TTL"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="-39.217655181884766" y="45.9640007019043"/>
+      </node>
+      <node id="aa1ac4c8-4317-4f74-8f64-a77669ecb056" label="Freja">
+        <attvalues>
+          <attvalue for="name" value="Freja"/>
+          <attvalue for="description" value="Model and Social Media Personality"/>
+          <attvalue for="@id" value="aa1ac4c8-4317-4f74-8f64-a77669ecb056"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="-37.789669036865234" y="20.48996925354004"/>
+      </node>
+      <node id="ff59bc3e-e23e-4f34-a06b-db01003b1ec6" label="Magdalene Nox">
+        <attvalues>
+          <attvalue for="name" value="Magdalene Nox"/>
+          <attvalue for="description" value="Educator"/>
+          <attvalue for="@id" value="ff59bc3e-e23e-4f34-a06b-db01003b1ec6"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Magdalene Nox; The Headmistress; Fairy Lights; Windburn; Firewild"/>
+          <attvalue for="rawSize" value="4.857142857142858"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.857142857142858"/>
+        <viz:position x="177.08310720545845" y="-131.7295170917895"/>
+      </node>
+      <node id="0703290d-8567-45bc-844c-09e2c2c164b9" label="Seren Crowhart">
+        <attvalues>
+          <attvalue for="name" value="Seren Crowhart"/>
+          <attvalue for="description" value="Coffee Shop Owner"/>
+          <attvalue for="@id" value="0703290d-8567-45bc-844c-09e2c2c164b9"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="4.142857142857142"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.142857142857142"/>
+        <viz:position x="62.485862731933594" y="-139.3649139404297"/>
+      </node>
+      <node id="a3bdfe37-82e1-487e-9720-4337bec031f1" label="Princess Allegra of Savoy">
+        <attvalues>
+          <attvalue for="name" value="Princess Allegra of Savoy"/>
+          <attvalue for="description" value="Royalty"/>
+          <attvalue for="@id" value="a3bdfe37-82e1-487e-9720-4337bec031f1"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TTL"/>
+          <attvalue for="rawSize" value="2.7142857142857144"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2.7142857142857144"/>
+        <viz:position x="-85.06900787353516" y="53.250450134277344"/>
+      </node>
+      <node id="66fc6598-40d6-480c-9b46-c014e0ab9c78" label="Deryn Crowhart">
+        <attvalues>
+          <attvalue for="name" value="Deryn Crowhart"/>
+          <attvalue for="description" value="Pastry Chef"/>
+          <attvalue for="@id" value="66fc6598-40d6-480c-9b46-c014e0ab9c78"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Windburn; Firewild"/>
+          <attvalue for="rawSize" value="5.571428571428571"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="5.571428571428571"/>
+        <viz:position x="64.40229034423828" y="-89.17987823486328"/>
+      </node>
+      <node id="779ec3a3-b9c8-495e-93cf-ea6742fe3f62" label="Grace Bishop">
+        <attvalues>
+          <attvalue for="name" value="Grace Bishop"/>
+          <attvalue for="description" value="Actress"/>
+          <attvalue for="@id" value="779ec3a3-b9c8-495e-93cf-ea6742fe3f62"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="-48.25596618652344" y="-14.553733825683594"/>
+      </node>
+      <node id="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" label="Arabella Archibald Avant">
+        <attvalues>
+          <attvalue for="name" value="Arabella Archibald Avant"/>
+          <attvalue for="description" value="Woman About Town"/>
+          <attvalue for="@id" value="6b8cb803-fea0-4f06-a0a2-2cd301693cc9"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TDTWM; Fairy Lights; TTL"/>
+          <attvalue for="rawSize" value="7"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="7"/>
+        <viz:position x="171.09070792595344" y="87.52506082172697"/>
+      </node>
+      <node id="a54c800a-971d-4893-a086-758669688945" label="Samantha &quot;Sam&quot; Threadneedle">
+        <attvalues>
+          <attvalue for="name" value="Samantha &quot;Sam&quot; Threadneedle"/>
+          <attvalue for="description" value="Educator"/>
+          <attvalue for="@id" value="a54c800a-971d-4893-a086-758669688945"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="Magdalene Nox; The Headmistress; Fairy Lights; Firewild"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="57.93968963623047" y="29.368101119995117"/>
+      </node>
+      <node id="2bd96739-827f-4683-a8c5-62a644a1bf43" label="Neve Blackthorne">
+        <attvalues>
+          <attvalue for="name" value="Neve Blackthorne"/>
+          <attvalue for="description" value="CEO of Gannon McMillan Pictures"/>
+          <attvalue for="@id" value="2bd96739-827f-4683-a8c5-62a644a1bf43"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="AWOS; TTL; Fairy Lights, Madam Secretary"/>
+          <attvalue for="rawSize" value="6.285714285714286"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="6.285714285714286"/>
+        <viz:position x="-135.26297555619792" y="-57.60225681255454"/>
+      </node>
+      <node id="0e0a80d6-0f54-48b4-a841-d7096296fcfa" label="Margot Dresden">
+        <attvalues>
+          <attvalue for="name" value="Margot Dresden"/>
+          <attvalue for="description" value="Gallery Owner"/>
+          <attvalue for="@id" value="0e0a80d6-0f54-48b4-a841-d7096296fcfa"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TDTWM"/>
+          <attvalue for="rawSize" value="2"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="2"/>
+        <viz:position x="-46.710750579833984" y="105.29354095458984"/>
+      </node>
+      <node id="5fb940d7-7468-4427-9455-a7d9951d6992" label="Genevieve &quot;Vi&quot; Courtenay">
+        <attvalues>
+          <attvalue for="name" value="Genevieve &quot;Vi&quot; Courtenay"/>
+          <attvalue for="description" value="Photographer"/>
+          <attvalue for="@id" value="5fb940d7-7468-4427-9455-a7d9951d6992"/>
+          <attvalue for="@typeId" value="95ec1092-2b25-4062-9e2c-0a756867574b"/>
+          <attvalue for="@labels" value="Person"/>
+          <attvalue for="Books Mentioned In" value="TTL; Fairy Lights"/>
+          <attvalue for="rawSize" value="4.857142857142858"/>
+        </attvalues>
+        <viz:color r="44" g="62" b="80"/>
+        <viz:size value="4.857142857142858"/>
+        <viz:position x="-66.30274963378906" y="65.9903335571289"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="b863a5e3-c3ba-4c48-a2ec-52f2b323eb7a" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="15433b89-0df9-4e35-aca7-bf2b18ea2d90" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="b863a5e3-c3ba-4c48-a2ec-52f2b323eb7a"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="e46dae42-7ccd-4135-84b4-53b2bcedb7e4" source="a3bdfe37-82e1-487e-9720-4337bec031f1" target="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="e46dae42-7ccd-4135-84b4-53b2bcedb7e4"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="0c9a75df-c39d-4ad2-8f09-54ebf7586fe9" source="2bd96739-827f-4683-a8c5-62a644a1bf43" target="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="0c9a75df-c39d-4ad2-8f09-54ebf7586fe9"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="91db85f3-ee54-4d88-a28c-7ea2467123bf" source="8f50ad5a-4ab8-469a-8dce-25f6ce69083e" target="e7c325a7-2f29-46e5-8483-eeb22e5c3917" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="91db85f3-ee54-4d88-a28c-7ea2467123bf"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="c8f3f899-832f-4605-845d-0a70d59a8b75" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="63a8bfe1-d6b5-425b-a4ba-a53b3a77d27c" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="c8f3f899-832f-4605-845d-0a70d59a8b75"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="c76b3642-1160-4751-94d9-8371e61ce297" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="c76b3642-1160-4751-94d9-8371e61ce297"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="5142eeb3-9177-4da5-b603-dc73a42c327b" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="5fb940d7-7468-4427-9455-a7d9951d6992" weight="2.7777777777777777" label="PATRONESS OF">
+        <attvalues>
+          <attvalue for="@id" value="5142eeb3-9177-4da5-b603-dc73a42c327b"/>
+          <attvalue for="@typeId" value="73738099-2183-4f2e-a94b-81b3b69571d3"/>
+          <attvalue for="@type" value="PATRONESS/PATRONEE"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="52" g="149" b="64"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="b9eedd95-7cf6-4343-8f41-4e240866d58e" source="8db42da6-8694-4e6f-9c77-777f2239997e" target="2bd96739-827f-4683-a8c5-62a644a1bf43" weight="2.7777777777777777" label="DOCTOR OF">
+        <attvalues>
+          <attvalue for="@id" value="b9eedd95-7cf6-4343-8f41-4e240866d58e"/>
+          <attvalue for="@typeId" value="e5ea06ec-6ff0-4d38-803f-e6b112343d19"/>
+          <attvalue for="@type" value="DOCTOR/PATIENT RELATIONSHIP"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="76" g="110" b="228"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="9da6bdca-1e3e-43b8-a20a-c15fa339daa4" source="8db42da6-8694-4e6f-9c77-777f2239997e" target="e90fa619-3ae7-4fb0-80ff-9f29f4737468" weight="2.7777777777777777" label="DOCTOR OF">
+        <attvalues>
+          <attvalue for="@id" value="9da6bdca-1e3e-43b8-a20a-c15fa339daa4"/>
+          <attvalue for="@typeId" value="e5ea06ec-6ff0-4d38-803f-e6b112343d19"/>
+          <attvalue for="@type" value="DOCTOR/PATIENT RELATIONSHIP"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="76" g="110" b="228"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="61ed019e-ae23-47e7-8d7f-150f9923f4ee" source="8db42da6-8694-4e6f-9c77-777f2239997e" target="ff59bc3e-e23e-4f34-a06b-db01003b1ec6" weight="2.7777777777777777" label="DOCTOR OF">
+        <attvalues>
+          <attvalue for="@id" value="61ed019e-ae23-47e7-8d7f-150f9923f4ee"/>
+          <attvalue for="@typeId" value="e5ea06ec-6ff0-4d38-803f-e6b112343d19"/>
+          <attvalue for="@type" value="DOCTOR/PATIENT RELATIONSHIP"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="76" g="110" b="228"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="57a6b234-b226-41b7-b791-41369cd5af40" source="8db42da6-8694-4e6f-9c77-777f2239997e" target="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" weight="2.7777777777777777" label="DOCTOR OF">
+        <attvalues>
+          <attvalue for="@id" value="57a6b234-b226-41b7-b791-41369cd5af40"/>
+          <attvalue for="@typeId" value="e5ea06ec-6ff0-4d38-803f-e6b112343d19"/>
+          <attvalue for="@type" value="DOCTOR/PATIENT RELATIONSHIP"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="76" g="110" b="228"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="179b6094-b35c-4507-bc72-678b134f2499" source="ff59bc3e-e23e-4f34-a06b-db01003b1ec6" target="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970" weight="2.7777777777777777" label="EDUCATOR OF">
+        <attvalues>
+          <attvalue for="@id" value="179b6094-b35c-4507-bc72-678b134f2499"/>
+          <attvalue for="@typeId" value="cc9b5aa9-5b3b-487a-984d-a72acf9f3aee"/>
+          <attvalue for="@type" value="EDUCATOR/STUDENT RELATIONSHIP"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="188" g="62" b="31"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="c6f5cdb8-d233-49a1-80aa-841eca9e6b34" type="undirected" source="0703290d-8567-45bc-844c-09e2c2c164b9" target="eb555990-3c2e-4a08-9e08-9ea122146a4e" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="c6f5cdb8-d233-49a1-80aa-841eca9e6b34"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="e770024d-aab0-4413-bf41-b58fd95088ae" type="undirected" source="66fc6598-40d6-480c-9b46-c014e0ab9c78" target="a095f4f4-fe52-4e02-8a37-d7b26b11519f" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="e770024d-aab0-4413-bf41-b58fd95088ae"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="8da10872-5d2b-44b0-babe-f02c9c84ff5a" type="undirected" source="a095f4f4-fe52-4e02-8a37-d7b26b11519f" target="0703290d-8567-45bc-844c-09e2c2c164b9" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="8da10872-5d2b-44b0-babe-f02c9c84ff5a"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="143855be-4971-4bb1-ba06-4ebde1b5f33f" type="undirected" source="66fc6598-40d6-480c-9b46-c014e0ab9c78" target="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="143855be-4971-4bb1-ba06-4ebde1b5f33f"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="c998b734-9c59-46a0-82dd-1ecca0ace4fe" type="undirected" source="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" target="eb555990-3c2e-4a08-9e08-9ea122146a4e" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="c998b734-9c59-46a0-82dd-1ecca0ace4fe"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="34f8f373-282f-4356-bde8-db714ab6ba66" type="undirected" source="0703290d-8567-45bc-844c-09e2c2c164b9" target="66fc6598-40d6-480c-9b46-c014e0ab9c78" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="34f8f373-282f-4356-bde8-db714ab6ba66"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="de850ff4-560c-49d5-a90f-6d7d65efbd83" type="undirected" source="e90fa619-3ae7-4fb0-80ff-9f29f4737468" target="0324d001-9b09-4923-8320-5a0173866eb3" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="de850ff4-560c-49d5-a90f-6d7d65efbd83"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="0884385d-416f-443f-a848-e5bf41616c66" type="undirected" source="5fb940d7-7468-4427-9455-a7d9951d6992" target="a3bdfe37-82e1-487e-9720-4337bec031f1" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="0884385d-416f-443f-a848-e5bf41616c66"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="4739b165-f002-4753-a349-e22349fc8e06" type="undirected" source="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" target="a095f4f4-fe52-4e02-8a37-d7b26b11519f" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="4739b165-f002-4753-a349-e22349fc8e06"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="41ff5c7f-87bc-4405-844a-88a5654d689e" type="undirected" source="a095f4f4-fe52-4e02-8a37-d7b26b11519f" target="eb555990-3c2e-4a08-9e08-9ea122146a4e" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="41ff5c7f-87bc-4405-844a-88a5654d689e"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="684da6e5-9fb7-4b03-a155-887c90e4aa3f" type="undirected" source="eb555990-3c2e-4a08-9e08-9ea122146a4e" target="66fc6598-40d6-480c-9b46-c014e0ab9c78" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="684da6e5-9fb7-4b03-a155-887c90e4aa3f"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="dd602fd0-c941-41d3-824f-0d9e9886de34" type="undirected" source="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" target="0703290d-8567-45bc-844c-09e2c2c164b9" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="dd602fd0-c941-41d3-824f-0d9e9886de34"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="e5c2fa90-53dc-4f08-a48b-ddec62e67648" type="undirected" source="493463d3-c8e7-4256-a1ab-b6f78566c62a" target="b1b3be36-dc0b-45e2-beff-e68353cac4bd" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="e5c2fa90-53dc-4f08-a48b-ddec62e67648"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="1475c375-62df-45cd-80c3-fd8d98529ecf" type="undirected" source="ff59bc3e-e23e-4f34-a06b-db01003b1ec6" target="3155a075-6c20-40eb-927f-b06d4e4f2157" weight="4.111111111111111" label="RELATIVE OF ">
+        <attvalues>
+          <attvalue for="@id" value="1475c375-62df-45cd-80c3-fd8d98529ecf"/>
+          <attvalue for="@typeId" value="549f8c53-afce-4e18-9fb4-1d08d945e255"/>
+          <attvalue for="@type" value="RELATIVE OF "/>
+          <attvalue for="rawWeight" value="4.111111111111111"/>
+        </attvalues>
+        <viz:color r="160" g="181" b="232"/>
+        <viz:size value="8"/>
+      </edge>
+      <edge id="fca37927-05b0-485b-b001-fe39f5917832" type="undirected" source="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970" target="5fb940d7-7468-4427-9455-a7d9951d6992" weight="1.4444444444444444" label="FRIENDS WITH">
+        <attvalues>
+          <attvalue for="@id" value="fca37927-05b0-485b-b001-fe39f5917832"/>
+          <attvalue for="@typeId" value="32b29141-a96a-4298-a1a2-9eda09f83559"/>
+          <attvalue for="@type" value="FRIENDS WITH"/>
+          <attvalue for="rawWeight" value="1.4444444444444444"/>
+        </attvalues>
+        <viz:color r="232" g="136" b="253"/>
+        <viz:size value="2"/>
+      </edge>
+      <edge id="1d221fd0-ada3-406e-be0c-69fb500b8cf1" type="undirected" source="15433b89-0df9-4e35-aca7-bf2b18ea2d90" target="5fb940d7-7468-4427-9455-a7d9951d6992" weight="1.4444444444444444" label="FRIENDS WITH">
+        <attvalues>
+          <attvalue for="@id" value="1d221fd0-ada3-406e-be0c-69fb500b8cf1"/>
+          <attvalue for="@typeId" value="32b29141-a96a-4298-a1a2-9eda09f83559"/>
+          <attvalue for="@type" value="FRIENDS WITH"/>
+          <attvalue for="rawWeight" value="1.4444444444444444"/>
+        </attvalues>
+        <viz:color r="232" g="136" b="253"/>
+        <viz:size value="2"/>
+      </edge>
+      <edge id="65fdd072-8851-4c83-bf73-75b936842ac3" type="undirected" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="0e0a80d6-0f54-48b4-a841-d7096296fcfa" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="65fdd072-8851-4c83-bf73-75b936842ac3"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="60ab0fb4-5fb3-4a14-8ad8-dd5ae5c4788c" type="undirected" source="aa1ac4c8-4317-4f74-8f64-a77669ecb056" target="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970" weight="2.7777777777777777" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="60ab0fb4-5fb3-4a14-8ad8-dd5ae5c4788c"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="2.7777777777777777"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="20968642-5291-4cc8-8a62-d203f02c9464" type="undirected" source="adaf0a62-117a-434b-ae63-f92659ea899d" target="446abc00-b917-4514-9ca4-bd53e0d71782" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="20968642-5291-4cc8-8a62-d203f02c9464"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="973adfd7-674f-4e87-931c-cb6057b7c897" type="undirected" source="8db42da6-8694-4e6f-9c77-777f2239997e" target="8f50ad5a-4ab8-469a-8dce-25f6ce69083e" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="973adfd7-674f-4e87-931c-cb6057b7c897"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="de434f28-d5f4-4449-bc73-411299d515ce" type="undirected" source="adaf0a62-117a-434b-ae63-f92659ea899d" target="2bd96739-827f-4683-a8c5-62a644a1bf43" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="de434f28-d5f4-4449-bc73-411299d515ce"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="8ba466ff-11eb-40a9-8f02-73cda50693dd" type="undirected" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="63a8bfe1-d6b5-425b-a4ba-a53b3a77d27c" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="8ba466ff-11eb-40a9-8f02-73cda50693dd"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="218be002-2a7f-46d0-b16a-57962e9a4cb5" type="undirected" source="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" target="e7c325a7-2f29-46e5-8483-eeb22e5c3917" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="218be002-2a7f-46d0-b16a-57962e9a4cb5"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="c288f172-cc31-430e-9052-2cbf73faa92d" type="undirected" source="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" target="0324d001-9b09-4923-8320-5a0173866eb3" weight="3.6666666666666665" label="PREVIOUS RELATIONSHIP WITH">
+        <attvalues>
+          <attvalue for="@id" value="c288f172-cc31-430e-9052-2cbf73faa92d"/>
+          <attvalue for="@typeId" value="bd2ab349-c6d1-4478-937b-e42472ef142a"/>
+          <attvalue for="@type" value="PREVIOUS RELATIONSHIP WITH"/>
+          <attvalue for="rawWeight" value="3.6666666666666665"/>
+        </attvalues>
+        <viz:color r="245" g="166" b="35"/>
+        <viz:size value="7"/>
+      </edge>
+      <edge id="bff7439a-22cd-4e98-b270-1d7bce1e1ae4" type="undirected" source="d7bc3a62-a8aa-4b1e-aefe-55aa79b1a3ac" target="1ef1bb0b-4d0a-42a7-a936-5158519da083" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="bff7439a-22cd-4e98-b270-1d7bce1e1ae4"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="9dbe7ed7-7beb-4d7e-8719-8b9db0c0276f" type="undirected" source="446abc00-b917-4514-9ca4-bd53e0d71782" target="66fc6598-40d6-480c-9b46-c014e0ab9c78" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="9dbe7ed7-7beb-4d7e-8719-8b9db0c0276f"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="5ab0fe7f-debd-4976-a414-1f6936233137" type="undirected" source="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" target="5fb940d7-7468-4427-9455-a7d9951d6992" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="5ab0fe7f-debd-4976-a414-1f6936233137"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="7229b3e4-55d3-4bbf-8851-49c2bd25d104" type="undirected" source="63a8bfe1-d6b5-425b-a4ba-a53b3a77d27c" target="15433b89-0df9-4e35-aca7-bf2b18ea2d90" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="7229b3e4-55d3-4bbf-8851-49c2bd25d104"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="feaca380-7362-481a-bc87-9d66df5e0adc" type="undirected" source="2bd96739-827f-4683-a8c5-62a644a1bf43" target="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="feaca380-7362-481a-bc87-9d66df5e0adc"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="8f506f74-e663-4ece-9c8e-9d7a4481b4d3" type="undirected" source="ff59bc3e-e23e-4f34-a06b-db01003b1ec6" target="a54c800a-971d-4893-a086-758669688945" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="8f506f74-e663-4ece-9c8e-9d7a4481b4d3"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="450d4fbe-1878-4419-8396-f3c0d2a47bd0" type="undirected" source="6b8cb803-fea0-4f06-a0a2-2cd301693cc9" target="e90fa619-3ae7-4fb0-80ff-9f29f4737468" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="450d4fbe-1878-4419-8396-f3c0d2a47bd0"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="f06246f1-8fb9-4169-9485-de6384fab9f5" type="undirected" source="12b26d91-dd9c-47cc-88a3-45915e3c1741" target="8f50ad5a-4ab8-469a-8dce-25f6ce69083e" weight="5" label="HEA WITH">
+        <attvalues>
+          <attvalue for="@id" value="f06246f1-8fb9-4169-9485-de6384fab9f5"/>
+          <attvalue for="@typeId" value="2cea5e2c-8174-488b-bfd1-8e0055429ced"/>
+          <attvalue for="@type" value="HEA WITH"/>
+          <attvalue for="rawWeight" value="5"/>
+        </attvalues>
+        <viz:color r="248" g="87" b="193"/>
+        <viz:size value="10"/>
+      </edge>
+      <edge id="e19cd7b7-6534-4d6e-bea6-e8bbc2c6d53e" type="undirected" source="87c6d29e-e8b3-4d0b-ae12-8e5f75e41d27" target="232dc9ca-2798-4a00-996f-00ba4d3a78bd" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="e19cd7b7-6534-4d6e-bea6-e8bbc2c6d53e"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="12cbd05e-96a3-4a4a-a986-47cc58fbcd37" type="undirected" source="ff59bc3e-e23e-4f34-a06b-db01003b1ec6" target="b1b3be36-dc0b-45e2-beff-e68353cac4bd" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="12cbd05e-96a3-4a4a-a986-47cc58fbcd37"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="ccd2f54a-bf6a-44f6-9466-e0c4905fbf2e" type="undirected" source="ca8ea98b-f95c-419c-b389-f0d2cfcfa970" target="2bd96739-827f-4683-a8c5-62a644a1bf43" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="ccd2f54a-bf6a-44f6-9466-e0c4905fbf2e"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="50c3f2a4-b6da-4491-b868-596f94aade37" type="undirected" source="7a05cf81-6e2c-4a9d-ac09-23acc7dd0970" target="15433b89-0df9-4e35-aca7-bf2b18ea2d90" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="50c3f2a4-b6da-4491-b868-596f94aade37"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="a46ab8d3-aed0-4506-a0c1-0dbc962ee010" type="undirected" source="9d58d9a0-9d4d-478f-a04f-04d87a8f6b53" target="2bd96739-827f-4683-a8c5-62a644a1bf43" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="a46ab8d3-aed0-4506-a0c1-0dbc962ee010"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="f4cf828a-2602-49af-b6ab-a617a90d8958" type="undirected" source="493463d3-c8e7-4256-a1ab-b6f78566c62a" target="66fc6598-40d6-480c-9b46-c014e0ab9c78" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="f4cf828a-2602-49af-b6ab-a617a90d8958"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="dd24bf4a-b4a8-4d57-8890-317b2ed46e07" type="undirected" source="779ec3a3-b9c8-495e-93cf-ea6742fe3f62" target="2bd96739-827f-4683-a8c5-62a644a1bf43" weight="1" label="COLLABORATED WITH">
+        <attvalues>
+          <attvalue for="@id" value="dd24bf4a-b4a8-4d57-8890-317b2ed46e07"/>
+          <attvalue for="@typeId" value="d5a3af78-9524-4452-b0c5-b059fadf963b"/>
+          <attvalue for="@type" value="COLLABORATED WITH"/>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="44" g="224" b="175"/>
+        <viz:size value="1"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
